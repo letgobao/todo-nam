@@ -1,0 +1,39 @@
+/** @format */
+
+.check {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checked {
+  width: 5px;
+  height: 10px;
+  border-right: 2px solid #2bff36;
+  border-bottom: 2px solid #2bff36;
+  transform: rotate(45deg) translate(-2px, -2px);
+}
+.todo-item {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #cccccc;
+  display: flex;
+  font-size: 1.7em;
+  font-weight: 500;
+  align-items: center;
+  padding: 10px 5px;
+  background: #ffffff;
+}
+
+.content {
+  margin-left: 20px;
+}
+.close-box {
+  position: absolute;
+  right: 13px;
+  width: 13px;
+}

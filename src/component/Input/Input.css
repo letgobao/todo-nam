@@ -1,0 +1,15 @@
+/** @format */
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  font-size: 24px;
+  width: 100%;
+  padding: 0;
+  margin-left: 20px;
+  margin: 10px 0;
+}
+input[type="text"]::placeholder {
+  color: #aaaaaa;
+  font-style: italic;
+}
